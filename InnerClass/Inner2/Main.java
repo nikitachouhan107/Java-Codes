@@ -1,0 +1,9 @@
+package InnerClass.Inner2;
+
+public class Main {
+    public static void main(String[] args) {
+        Car c = new Car();
+        Car.Engine e = c.new Engine();
+        e.show();
+    }
+}
